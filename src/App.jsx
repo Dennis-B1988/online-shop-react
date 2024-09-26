@@ -8,10 +8,10 @@ class App extends Component {
         return  <React.Fragment>
                     <Navbar />
                     <div className="product-container">
-                        <Product />
-                        <Product />
-                        <Product />
-                        <Product />
+                        <Product image="sushi.jpg" title="Sushi" description="Description..." />
+                        <Product image="sushi.jpg" title="Product" description="Description..." />
+                        <Product image="sushi.jpg" title="Product" description="Description..." />
+                        <Product image="sushi.jpg" title="Product" description="Description..." />
                     </div>
                 </React.Fragment>;
     }
