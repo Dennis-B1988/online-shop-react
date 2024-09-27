@@ -1,10 +1,26 @@
 import React, { Component } from 'react';
 
 class ShoppingCart extends Component {
-    state = {  } 
+    state = { 
+        items: [{
+            amount: 1,
+            name: "Sushi",
+            price: 10
+        },
+        {
+            amount: 2,
+            name: "Takiyaki",
+            price: 15
+        }]
+     } 
     render() { 
         return <div className="shopping-cart">
             <h2>Warenkorb</h2>
+            {this.state.items.map((item, index) => {
+                return <div className='item' key={index}>
+                    <span>{item.amount} x {item.name} - {item.price}€</span>
+                </div>
+            })}
         </div>;
     }
 }
