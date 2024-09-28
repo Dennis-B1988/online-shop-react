@@ -8,8 +8,8 @@ class ShoppingCart extends Component {
             price: 10
         },
         {
-            amount: 2,
-            name: "Takiyaki",
+            amount: 1,
+            name: "Salami Pizza",
             price: 15
         }]
      } 

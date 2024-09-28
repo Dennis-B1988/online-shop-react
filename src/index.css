@@ -10,13 +10,13 @@
   padding-right: 32px;
 }
 
-.shopping-cart {
-  width: 25vw;
+.product-container img {
+  height: 300px;
+  width: 300px;
 }
 
-.item {
-  display: flex;
-  flex-direction: column;
+.shopping-cart {
+  width: 25vw;
 }
 
 @media (max-width: 850px) {

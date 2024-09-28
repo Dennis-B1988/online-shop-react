@@ -11,9 +11,9 @@ class App extends Component {
                     <div className="main-container">
                         <div className="product-container">
                             <Product image="sushi.jpg" title="Sushi" description="Description..." />
-                            <Product image="sushi.jpg" title="Product" description="Description..." />
-                            <Product image="sushi.jpg" title="Product" description="Description..." />
-                            <Product image="sushi.jpg" title="Product" description="Description..." />
+                            <Product image="salami-pizza.jpg" title="Salami Pizza" description="Description..." />
+                            <Product image="schoko-eis.png" title="Schokoladeneis" description="Description..." />
+                            <Product image="salat.png" title="Gemischter Salat" description="Description..." />
                         </div>
                         <ShoppingCart />
                     </div>
